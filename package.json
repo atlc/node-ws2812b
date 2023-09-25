@@ -1,0 +1,31 @@
+{
+  "name": "ws2812b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node lights.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atlc/node-ws2812b.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atlc/node-ws2812b/issues"
+  },
+  "homepage": "https://github.com/atlc/node-ws2812b#readme",
+  "devDependencies": {
+    "@types/rpi-ws281x-native": "^1.0.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "rpi-ws281x-native": "^1.0.4"
+  }
+}
